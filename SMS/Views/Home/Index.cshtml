@@ -1,8 +1,45 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Login Page";
 }
+<div class="topnav">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1>Social Networking Site</h1>
+
+    <div class="login-container">
+        <form action="/action_page.php">
+            <input type="text" placeholder="Username" name="username">
+            <input type="text" placeholder="Password" name="psw">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <div class="reg-form">
+        <form class="form-inline" action="/action_page.php">
+            <label for="fname" class="mr-sm-2">First Name:</label>
+            <input type="fname" class="form-control mb-2 mr-sm-2" placeholder="Enter first name" id="fname">
+            <label for="lname" class="mr-sm-2">Last Name:</label>
+            <input type="lname" class="form-control mb-2 mr-sm-2" placeholder="Enter last name" id="lname">
+            <label for="email" class="mr-sm-2">Email address:</label>
+            <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter email" id="email">
+            <label for="mobile" class="mr-sm-2">Mobile:</label>
+            <input type="phone" class="form-control mb-2 mr-sm-2" placeholder="Enter mobile" id="mobile">
+            <label for="city" class="mr-sm-2">City:</label>
+            <input type="city" class="form-control mb-2 mr-sm-2" placeholder="Enter city" id="city">
+            <label for="dob" class="mr-sm-2">Birth Of Date:</label>
+            <input type="date" class="form-control mb-2 mr-sm-2" placeholder="Enter dob" id="dob">
+            <label for="uname" class="mr-sm-2">User Name:</label>
+            <input type="uname" class="form-control mb-2 mr-sm-2" placeholder="Enter user name" id="fname">
+            <label for="pwd" class="mr-sm-2">Password:</label>
+            <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">
+            <label for="pwd" class="mr-sm-2">Confirm Password:</label>
+            <input type="password" class="form-control mb-2 mr-sm-2" placeholder="Enter password" id="pwd">
+            <div class="form-check mb-2 mr-sm-2">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+        </form>
+    </div>
 </div>
+
+
