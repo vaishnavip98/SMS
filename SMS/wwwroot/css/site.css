@@ -65,3 +65,63 @@ body {
         .topnav .login-container button:hover {
             background-color: green;
         }
+
+.rform {
+    padding: 10px 80px;
+    margin: 10px 80px 10px 700px;
+}
+.p {
+    text-align:right;
+    padding:0px 340px 0 0;
+    color:darkslateblue;
+}
+.stxt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.lb {
+    display: flex;
+    justify-content:space-between;
+    padding-left:400px;
+    align-items: center;
+    margin:10px 0;
+}
+.leftbar{
+    border:solid 1px;
+    margin:10px 20px 50px 10px;
+    width:369px;
+}
+.pbtn{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin:10px 10px;
+    
+}
+.pbtn > button{
+    width:160px;
+}
+.sbtn{
+    border:solid 1px;
+}
+.img{
+    border:solid 1px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.page1 {
+    display: flex;
+    align-content:center;
+}
+.rightbar {
+    border: solid 1px;
+    margin: 10px 10px 10px 320px;
+}
+.freq{
+    width:200px;
+    color:darkblue;
+    text-align:center;
+}

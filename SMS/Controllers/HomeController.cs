@@ -18,5 +18,9 @@ namespace SMS.Controllers
             return View();
         }
 
+        public IActionResult MainPage()
+        {
+            return View();
+        }
     }
 }
